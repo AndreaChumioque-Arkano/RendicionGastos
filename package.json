@@ -1,0 +1,38 @@
+{
+    "name": "microsoft-teams-ext",
+    "version": "0.1.0",
+    "msteams": {
+        "teamsAppId": "523b3530-54af-4b47-8249-6f0d2738e7b6"
+    },
+    "private": true,
+    "dependencies": {
+        "@fluentui/keyboard-key": "^0.3.0",
+        "@fluentui/merge-styles": "^8.1.0",
+        "@fluentui/react-icons-northstar": "^0.54.0",
+        "@fluentui/react-northstar": "~0.52.0",
+        "@fluentui/react-teams": "^3.0.0",
+        "@fluentui/styles": "^0.54.0",
+        "@microsoft/teams-js": "^1.6.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-router-dom": "^5.1.2",
+        "react-scripts": "3.4.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
